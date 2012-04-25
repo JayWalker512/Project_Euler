@@ -6,7 +6,7 @@ int main()
 	int terms[2] = {1,2}; 
 	int sum = 2;
 	
-	while(terms[2] < 4000000)
+	while(terms[1] < 4000000)
 	{
 		int newterm;
 		newterm = terms[0] + terms[1]; //generate next term
@@ -15,8 +15,7 @@ int main()
 			sum += newterm;
 	}
 	
-	printf("The sum of all even terms in the Fibonacci secuence not exceeding\
-		4 million is: %d\n", sum);
+	printf("The sum of all even terms in the Fibonacci sequence not exceeding 4 million is: %d\n", sum);
 	
 	return 0;
 }
